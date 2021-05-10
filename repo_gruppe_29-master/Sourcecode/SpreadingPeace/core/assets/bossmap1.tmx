@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="30" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="27">
+ <tileset firstgid="1" source="TileSet32.tsx"/>
+ <layer id="1" name="Wasser" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJwLZWBg8KIzDgNieyC2ozO2HbV31N5Re0ftHbV31N5BYm8iEBvRGScBMQCZ5Hv7
+  </data>
+ </layer>
+ <layer id="2" name="Hintergrund" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzFVEkKwCAMtNvR3vuA9oUefH57qDQM2aqCwiCCOkuMIYwb04P1nVuQnPsob0HuwM/pofcib+7k28qP481CXlG4A/Ph8loUXtw/w/r44cmqFfot2rhzZ6f8s8CLQN8SNiNby68He6NnjXcW8q7Ng76HWr9eLuyLspZ4I3NGq1fBFb63o+mgvLQnuJ5BeHTgvVhf1NfaMxyX9k9qf1v64dHSgbycthp4/6sR4wZumQ4Z
+  </data>
+ </layer>
+ <layer id="9" name="Andere" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiegHGgHTAKRsEoGAWjYBQMQgAADxgAAg==
+  </data>
+ </layer>
+ <layer id="4" name="Collision" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiegJEEteZAbEElbEmCvf5AHEAlHEiCvfQGoPAlJVyoZa4zELvSwF5C5o7aSx97QfmHFumeVuZSC4yWV6OAUgAAhTUbog==
+  </data>
+ </layer>
+ <layer id="8" name="Vor" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwUgASUAMAAmAAGM=
+  </data>
+ </layer>
+ <objectgroup id="6" name="WasserObjects">
+  <object id="18" x="-1" y="-2" width="962" height="26"/>
+  <object id="19" x="936" y="17" width="26" height="529"/>
+  <object id="20" x="-4" y="515" width="966" height="31"/>
+  <object id="21" x="0" y="21" width="25" height="531"/>
+ </objectgroup>
+ <objectgroup id="7" name="CollisionObjects">
+  <object id="22" x="173" y="86" width="613" height="37"/>
+  <object id="23" x="173" y="407" width="613" height="37"/>
+  <object id="24" x="109" y="183" width="38" height="164"/>
+  <object id="25" x="813" y="184" width="38" height="164"/>
+ </objectgroup>
+ <objectgroup id="5" name="TreeObjects">
+  <object id="1" x="840" y="416" width="18" height="30"/>
+  <object id="3" x="680" y="480" width="18" height="30"/>
+  <object id="7" x="136" y="64" width="18" height="30"/>
+  <object id="11" x="40" y="416" width="18" height="30"/>
+  <object id="12" x="168" y="480" width="18" height="30"/>
+  <object id="16" x="840" y="64" width="18" height="30"/>
+  <object id="17" x="904" y="192" width="18" height="30"/>
+ </objectgroup>
+</map>

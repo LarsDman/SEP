@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="30" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="121">
+ <tileset firstgid="1" source="TileSet32.tsx"/>
+ <tileset firstgid="253" name="Cave" tilewidth="32" tileheight="32" tilecount="224" columns="16">
+  <image source="All.png" trans="acc58b" width="512" height="448"/>
+ </tileset>
+ <layer id="2" name="Wasser" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJyzY2BgsEPDoQzUBejmI2N6goGwcxQMfzBQaWo0LY8CYsFISqPklPOUupOcOo3cehBffYrLLHQ1AIyDCcg=
+  </data>
+ </layer>
+ <layer id="1" name="Hintergrund" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJytVE1rwkAQnUZooLQ99aIS6CWBtl7Uc/Ace9a7/ob8HM/qz3QXZug4fbPJli48SDYz781niPDZ/hP2Dr+cnbL9DnhQqM17DrpEHDug5en25ts04dcDm461tWbxh3zqEfo67qjRBmyA3WNAqfAG8rMx5vTC6r44PB8D/AV47gHvMmAVcDS6qVqVXAedu+21B+GV3pLRrUfwVRn11LxSh5Z1DwHrkf4N684SNoUTt+iiefag+14ZHsEyI340z2iX5G6eqLO3G7m23i5/0v2OPdHveXwmvIPCi/bolfNC85iKn0DPClOfdyffKWtG+4m6T+1s7OvR6J4DTuTPf9TV8xz5G6DrQWuSykH+d1+M+LwAPnaXmgGtFf38d/Q58P2ac74EXEf6DMH6oWO5kM8NNlAqUA==
+  </data>
+ </layer>
+ <layer id="10" name="Andere" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUkAoYB9oBo2AUjIJRQCYAAAy4AAI=
+  </data>
+ </layer>
+ <layer id="4" name="Collision" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzNlL0OgjAURsvk5uRq4qwPoMzEGZxl10UdXHgddVZ3fxYnNTHs+jJ+Tdrk5toWKgx8yQlJubenXAJCNCs30CmoyWpyvdT1A3LQq2nfovRBi/i65N4QjBihYQ9eZ6px+WUGZC0GCUhBoBiL31lHxB2qGp/QXp2A+NdgYuiLVE2qnC5vpvbk/XJtZvDrHlO0M1bn8n1e7aUz5eFn5W5bny1yxnPinArzTF2Rbtu7KOP0PfO/4fNt1+DdgC3YOWr0fBJC0awWYKlYGe7vwQEcS54zE/X9C0/gXKH/Dh4la/MKHv6taO/TUv+2rF/A1cOr5+zb19R8AUkiKYk=
+  </data>
+ </layer>
+ <layer id="3" name="Vor" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBCaYB8fSBdgSVQCsQt0FxOw41M4B4Jhlm49NXCcRVUFyNQ80SIF5Khr3o+vaRqH8DEG8kw15y9Y0CCAAAP9ANog==
+  </data>
+ </layer>
+ <objectgroup id="6" name="WasserObjects">
+  <object id="22" x="-7" y="-17" width="968" height="43"/>
+  <object id="23" x="936" y="13" width="26" height="553"/>
+  <object id="24" x="-5" y="-16" width="28" height="577"/>
+  <object id="25" x="2" y="526" width="938" height="31"/>
+  <object id="26" x="19" y="267" width="33" height="49"/>
+  <object id="27" x="18" y="19" width="165" height="34"/>
+  <object id="28" x="22" y="43" width="33" height="75"/>
+  <object id="29" x="50" y="48" width="40" height="46.7769"/>
+  <object id="30" x="777" y="22" width="161" height="34"/>
+  <object id="31" x="900" y="53" width="41" height="37"/>
+  <object id="32" x="903" y="161" width="33" height="125"/>
+  <object id="33" x="867" y="161" width="50" height="58"/>
+  <object id="34" x="899" y="451" width="40" height="82"/>
+  <object id="35" x="809" y="488" width="95" height="40"/>
+  <object id="36" x="22" y="458" width="33" height="77"/>
+  <object id="37" x="54" y="490" width="34" height="43"/>
+  <object id="38" x="394" y="489" width="304" height="40"/>
+  <object id="39" x="518" y="424" width="117" height="69"/>
+  <object id="40" x="488" y="460" width="35" height="33"/>
+  <object id="41" x="548" y="390.093" width="122" height="52.9072"/>
+  <object id="42" x="583" y="295" width="52" height="54"/>
+ </objectgroup>
+ <objectgroup id="5" name="CollisionObjects">
+  <object id="2" x="205" y="185" width="70.5" height="194"/>
+  <object id="3" x="272.5" y="216" width="66" height="66"/>
+  <object id="4" x="172" y="280.5" width="135.5" height="99.0425"/>
+  <object id="5" x="140.5" y="312.5" width="73.5" height="67"/>
+  <object id="6" x="652" y="120.5" width="135.5" height="94.8924"/>
+  <object id="7" x="717" y="242.5" width="70.5" height="38.5"/>
+  <object id="8" x="849.977" y="455.64" width="34.5" height="24.3208"/>
+  <object id="9" x="806" y="328.283" width="81" height="51.2167"/>
+  <object id="10" x="833.337" y="373.353" width="35.5" height="26.5"/>
+  <object id="11" x="545" y="390" width="125.5" height="6.19051"/>
+  <object id="12" x="545" y="346.5" width="127.5" height="5.5"/>
+  <object id="15" x="642" y="449.333" width="28" height="28.6667"/>
+  <object id="16" x="738" y="420.667" width="28" height="24.6667"/>
+  <object id="17" x="452" y="446.667" width="26.6667" height="24.6667"/>
+  <object id="87" x="334.555" y="121.328" width="163.664" height="32.5262"/>
+  <object id="89" x="401" y="135.784" width="96.703" height="48.0149"/>
+  <object id="97" x="686.148" y="198.771" width="101.709" height="48.5312"/>
+  <object id="98" x="89.318" y="6.19547" width="134.235" height="88.2854"/>
+  <object id="99" x="333.006" y="485.828" width="42.852" height="41.8194"/>
+ </objectgroup>
+ <objectgroup id="8" name="TreeObjects">
+  <object id="72" x="264" y="480" width="18" height="30"/>
+  <object id="74" x="520" y="128" width="18" height="30"/>
+  <object id="75" x="456" y="192" width="18" height="30"/>
+  <object id="77" x="488" y="32" width="18" height="30"/>
+  <object id="78" x="39" y="192" width="18" height="30"/>
+  <object id="79" x="232" y="384" width="18" height="30"/>
+  <object id="80" x="260" y="384" width="18" height="30"/>
+ </objectgroup>
+</map>

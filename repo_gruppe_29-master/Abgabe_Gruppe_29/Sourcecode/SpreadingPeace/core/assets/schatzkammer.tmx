@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="30" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="22">
+ <tileset firstgid="1" source="TileSet32.tsx"/>
+ <layer id="1" name="Hintergrund" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJyLYmBgiELDJkBsSmVshsUedLtSgTiNyjgFi90mNLKLkN0OdLAT3W56+RUZO9HZr6P2Dn97I4DYbwDsBfmV3nl3MNjrA8SRdI7bKBraDbLDFw0j24lsty+V7Ef3FzEYZj8lmBg7AV2Xvag=
+  </data>
+ </layer>
+ <objectgroup id="2" name="CollisionObjects">
+  <object id="1" x="-1.10448" y="0" width="962.006" height="27.6121"/>
+  <object id="2" x="-1.10448" y="27.6121" width="23.1942" height="515.794"/>
+  <object id="3" x="9.94036" y="511.376" width="955.379" height="51.9108"/>
+  <object id="4" x="935.498" y="11.0448" width="44.1794" height="511.376"/>
+  <object id="5" x="907.886" y="299.315" width="33.1345" height="214.27"/>
+  <object id="6" x="684.78" y="483.764" width="238.569" height="34.239"/>
+  <object id="7" x="720.124" y="452.839" width="201.016" height="30.9256"/>
+  <object id="8" x="878.065" y="421.913" width="38.6569" height="39.7614"/>
+  <object id="9" x="16.5673" y="423.017" width="32.03" height="97.1946"/>
+  <object id="10" x="37.5525" y="457.256" width="40.8659" height="61.8511"/>
+  <object id="11" x="72.896" y="488.182" width="77.3139" height="27.6121"/>
+  <object id="12" x="12.1493" y="20.9852" width="33.1345" height="121.493"/>
+  <object id="13" x="40.8659" y="22.0897" width="41.9704" height="61.8511"/>
+  <object id="14" x="77.3139" y="19.8807" width="109.344" height="30.9256"/>
+  <object id="15" x="843.826" y="13.2538" width="107.135" height="37.5525"/>
+  <object id="16" x="872.543" y="45.2839" width="77.3139" height="33.1345"/>
+  <object id="17" x="902.364" y="64.0601" width="38.6569" height="53.0152"/>
+ </objectgroup>
+ <objectgroup id="3" name="TreeObjects">
+  <object id="20" x="16.5673" y="27.6121" width="20.9852" height="32.03"/>
+ </objectgroup>
+ <objectgroup id="4" name="WasserObjects">
+  <object id="21" x="905.677" y="32.03" width="45.2839" height="35.3435"/>
+ </objectgroup>
+ <layer id="5" name="Wasser" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF6CBtoB0wCkbBKBgFo2AU0AgAAMbuAGc=
+  </data>
+ </layer>
+ <layer id="6" name="Collision" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBicIG2gHTAKRsEoGAWjYBQMQwAA+FYAZw==
+  </data>
+ </layer>
+ <layer id="7" name="Andere" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh8IG2gHTAKRsEoGAWjYBQMUwAA+e4AZw==
+  </data>
+ </layer>
+ <layer id="8" name="Vor" width="30" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcIG2gHTAKRsEoGAWjYBQMYwAA+4YAZw==
+  </data>
+ </layer>
+</map>

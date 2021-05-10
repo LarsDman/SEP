@@ -1,0 +1,17 @@
+apply plugin: "java"
+
+sourceCompatibility = 1.6
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+jar {
+	baseName ="sepgame"
+	version="0.9"
+	manifest {
+				attributes 'Main-Class': 'de.paluno.game.desktop.DesktopLauncher'}
+}
+
+eclipse.project {
+    name = appName + "-core"
+}
